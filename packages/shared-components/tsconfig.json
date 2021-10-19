@@ -1,0 +1,13 @@
+{
+  "include": ["./src/**/*.*"],
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "app/*": ["./src/app/*"],
+      "embed/*": ["./src/embed/*"],
+      "sandbox/*": ["./src/sandbox/*"]
+    },
+    
+    
+  }
+}

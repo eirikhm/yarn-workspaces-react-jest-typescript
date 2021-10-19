@@ -1,0 +1,9 @@
+{
+  "name": "yarn-workspaces-react-jest-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": ["packages/first-client", "packages/second-client","packages/shared-components"],
+  "private":"true"
+
+}
